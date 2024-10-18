@@ -21,18 +21,18 @@ const Connections = () => {
                                         {/* Today */}
                                         <div className="mt-0">
                                             <div className="flex px-2 justify-between items-center">
-                                                <p className="text-gray-700  font-semibold">Today</p>
+                                                <p className="text-gray-700 text-[13px] font-semibold">Today</p>
                                                 <span className="text-blue-500">Icon</span>
                                             </div>
                                             <div className="flex mt-1 px-2 space-x-3">
-                                                <p className="w[33px]  text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
-                                                <p className="w-[60px] text-[#A45286] ">New Connection</p>
+                                                <p className="w[33px] text-[16px] text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
+                                                <p className="w-[60px] text-[#A45286] text-[12px]">New Connection</p>
                                             </div>
 
                                             <hr className="my-2" />
                                             <div className="flex px-2 justify-between">
-                                                <p className="text-blue-500 cursor-pointer">See stats</p>
-                                                <p className="text-blue-500 cursor-pointer">See all</p>
+                                                <p className="text-[#717171] cursor-pointer">See stats</p>
+                                                <p className="text-[#717171] cursor-pointer">See all</p>
                                             </div>
                                         </div>
                                     </div>
@@ -42,18 +42,18 @@ const Connections = () => {
                                         {/* Today */}
                                         <div className="mt-0">
                                             <div className="flex px-2 justify-between items-center">
-                                                <p className="text-gray-700  font-semibold">Today</p>
+                                                <p className="text-gray-700 text-[13px] font-semibold">Today</p>
                                                 <span className="text-blue-500">Icon</span>
                                             </div>
                                             <div className="flex mt-1 px-2 space-x-3">
-                                                <p className="w[33px]  text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
-                                                <p className="w-[60px] text-[#A45286] ">New Connection</p>
+                                                <p className="w[33px] text-[16px] text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
+                                                <p className="w-[60px] text-[#A45286] text-[12px]">New Connection</p>
                                             </div>
 
                                             <hr className="my-2" />
                                             <div className="flex px-2 justify-between">
-                                                <p className="text-blue-500 cursor-pointer">See stats</p>
-                                                <p className="text-blue-500 cursor-pointer">See all</p>
+                                                <p className="text-[#717171] cursor-pointer">See stats</p>
+                                                <p className="text-[#717171] cursor-pointer">See all</p>
                                             </div>
                                         </div>
                                     </div>
@@ -63,18 +63,18 @@ const Connections = () => {
                                         {/* Today */}
                                         <div className="mt-0">
                                             <div className="flex px-2 justify-between items-center">
-                                                <p className="text-gray-700  font-semibold ">Today</p>
+                                                <p className="text-gray-700 text-[13px] font-semibold ">Today</p>
                                                 <span className="text-blue-500">Icon</span>
                                             </div>
                                             <div className="flex mt-1 px-2 space-x-3">
-                                                <p className="w[33px]  text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
-                                                <p className="w-[60px] text-[#A45286] ">New Connection</p>
+                                                <p className="w[33px] text-[16px] text-white h-[33px] bg-[#A45286] rounded-md">10+</p>
+                                                <p className="w-[60px] text-[#A45286] text-[12px] ">New Connection</p>
                                             </div>
 
-                                            <hr className="my-2" />
+                                            <hr className="my-2 text-[12px] " />
                                             <div className="flex px-2 justify-between">
-                                                <p className="text-blue-500 cursor-pointer">See stats</p>
-                                                <p className="text-blue-500 cursor-pointer">See all</p>
+                                                <p className="text-[#717171] cursor-pointer">See stats</p>
+                                                <p className="text-[#717171] cursor-pointer">See all</p>
                                             </div>
                                         </div>
                                     </div>

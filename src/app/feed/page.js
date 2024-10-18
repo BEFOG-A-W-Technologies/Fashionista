@@ -78,8 +78,9 @@ const Post = () => {
             </div>
 
             <div className="mt-1 text-gray-600">
-              <p className="px-8 text-[14px]">
+              <p className="px-8 text-[14px] w-[790px] h-auto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga, enim sunt nobis, iste quidem nam mollitia placeat optio sapiente, quam explicabo distinctio reprehenderit excepturi aliquam! Rem at cum neque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit omnis aliquam reiciendis. Libero, voluptatum! Aperiam asperiores magnam beatae ducimus alias nesciunt dolore, rem commodi numquam laudantium, vitae quam cum!
                 {expanded && (
                   <span>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga nihil autem, rem ratione dolorum quis quidem mollitia recusandae iusto.
@@ -132,7 +133,7 @@ const Post = () => {
         ))}
 
 
-        <div className="bg-white h-[402px] shadow-lg my-4">
+        <div className="bg-white h-auto shadow-lg my-4 ">
           <div className="flex justify-between items-center px-4 py-2">
               <p className="leading-[15px] text-[10px]">
                 <span className="text-[#A45286]">Ted Bell, Annette Nguyen</span> and
@@ -198,7 +199,7 @@ const Post = () => {
             </div>
           </div>
 
-          <div className="flex justify-between items-center mt-5 px-8">
+          <div className="flex justify-between items-center mt-5 mb-4 px-8">
             <div className="flex space-x-4">
               <div className="flex items-center space-x-3">
                 <FaThumbsUp className="text-primary text-[20px]" />

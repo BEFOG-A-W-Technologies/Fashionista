@@ -24,7 +24,7 @@ function groups() {
                     <div className="w-[480px] h-[50px] border-2 border-slate-400 rounded-md flex justify-between items-center bg-white">
                         {/* Your group Button */}
                         <button
-                            className={`w-1/2 h-full ${activeGroup === 'Your group' ? 'bg-[#A45286] text-white' : 'bg-[#c88bb2] text-white'} font-semibold hover:bg-[#A45286] transition-all duration-200 rounded-l-md`}
+                            className={`w-1/2 h-full ${activeGroup === 'Your group' ? 'bg-[#A45286] text-white' : 'bg-[#A45286] text-white'} font-semibold hover:bg-[#A45286] transition-all duration-200 rounded-l-md`}
                             onClick={handleYourGroup}
                         >
                             Your Group

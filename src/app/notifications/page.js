@@ -6,19 +6,20 @@ function Page() {
     <div className='my-[120px] ml-[130px] flex'>
       {/* Left */}
       <div className="w-[290px] h-[480px]">
-        <div className="w-auto h-[95px] shadow-md mb-6">
-          <p className="px-9 py-2 text-center">Notifications</p>
+        <div className="w-auto bg-[#FFFFFF] h-[95px] shadow-md mb-6">
+          <p className="px-9 text-[12px] font-gotham text-[#181818] py-2 "> NOTIFICATIONS </p>
           <hr />
-          <p className="pt-2 px-6 text-center font-semibold">
-            Notifications Settings
+          <p className=" pt-4 px-6 justify-center text-[#181818] text-xs font-semibold">
+            NOTIFICATIONS SETTINGS
           </p>
         </div>
-        <div className="h-[360px] shadow-lg">
-          <div className="space-x-8 w-[230px] mx-auto">
-            <span className="font-semibold">Your Dashboard</span>
-            <span className="text-right text-[#A45286] font-semibold">Go To stats</span>
+        <div className="h-[360px] bg-[#FFFFFF] shadow-lg">
+          {/* Add margin top here */}
+          <div className="space-x-12  w-[230px] mx-auto pt-2 ">
+            <span className="font-semibold text-[12px]">YOUR DASHBOARD</span>
+            <span className="text-right text-[#A45286] text-[12px] font-semibold">GO TO STATS</span>
           </div>
-          <hr className="w-[230px] mx-auto mt-4" />
+          <hr className="w-[230px] mx-auto mt-2" />
           <div className="flex flex-col m-4">
             <div className="flex flex-col w-[83px] h-[71px] mb-6">
               <span className="text-[#A45286] font-bold text-[45px] leading-[51.75px] text-left">896</span>
@@ -34,6 +35,7 @@ function Page() {
             </div>
           </div>
         </div>
+
       </div>
 
       {/* Right */}
@@ -49,17 +51,18 @@ function Page() {
 
           {/* Job List Items */}
           {Array(3).fill().map((_, index) => (
-            <div key={index} className='w-auto h-[78px] mb-4 p-4 border-2 rounded-lg'>
+            <div key={index} className='w-auto bg-[#FFFFFF] h-[78px] mb-4 p-4 border-2 rounded-lg'>
               <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                   <Image src="/path/to/image.jpg" alt="Job image" width={50} height={50} className='mr-4' />
                   <div>
-                    <p className="text-sm sm:text-base md:text-lg lg:text-xl"> jhtdr yjdrg i7g 6r65w e55tf </p>
-                    <span className="text-gray-500 text-xs sm:text-sm md:text-base">7656 864</span>
+                    <p className="text-sm font-semibold font-gotham sm:text-base md:text-lg lg:text-xl"> You appeared in 9 searches <span className="font-normal">this week
+                      </span> </p>
+                    <span className="text-gray-500 text-[10px]">3 WEEKS</span>
                   </div>
                 </div>
                 <div className="flex-shrink-0">
-                  <span className='text-[#A45286] text-2xl'>ICON</span>
+                  <span className='text-[#A45286]  text-lg'>ICON</span>
                 </div>
               </div>
             </div>
@@ -78,17 +81,18 @@ function Page() {
 
           {/* Another Job List */}
           {Array(2).fill().map((_, index) => (
-            <div key={index} className='w-auto h-[78px] mb-4 p-4 border-2 rounded-lg'>
+            <div key={index} className='w-auto bg-[#FFFFFF] h-[78px] mb-4 p-4 border-2 rounded-lg'>
               <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                   <Image src="/path/to/image.jpg" alt="Job image" width={50} height={50} className='mr-4' />
                   <div>
-                    <p className="text-sm sm:text-base md:text-lg lg:text-xl"> jhtdr yjdrg i7g 6r65w e55tf </p>
-                    <span className="text-gray-500 text-xs sm:text-sm md:text-base">7656 864</span>
+                    <p className="text-sm font-semibold font-gotham sm:text-base md:text-lg lg:text-xl"> You appeared in 9 searches <span className="font-normal">this week
+                      </span> </p>
+                    <span className="text-gray-500 text-[10px]">3 WEEKS</span>
                   </div>
                 </div>
                 <div className="flex-shrink-0">
-                  <span className='text-[#A45286] text-2xl'>ICON</span>
+                  <span className='text-[#A45286] text-lg'>ICON</span>
                 </div>
               </div>
             </div>
